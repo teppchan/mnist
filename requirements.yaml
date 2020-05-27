@@ -1,0 +1,14 @@
+name: pytorch
+channels:
+- pytorch
+dependencies:
+- python=3.8
+- pytorch=1.5
+- torchvision
+- cudatoolkit=10.2
+# - cpuonly  # if you don't have NVIDIA GPU
+- pylint
+- autopep8
+- pip
+- pip:
+  - torch-optimizer
